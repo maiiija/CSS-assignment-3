@@ -135,10 +135,13 @@ a:hover {
 /* media queries below - only 1 is needed */
 
 @media screen and (max-width: 600px) {
-
     #container {
         display: block;
         grid-template-columns: 1fr;
     }
-    
+
+    #helvetica {
+        margin: 2rem 2rem 1rem; 
+        padding: 2rem;
+    }
 }
